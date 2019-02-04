@@ -1,0 +1,5 @@
+name: server                           # アプリ名
+script: server/bin/www                 # スクリプトファイルパス
+exec_mode: "cluster"                   # 起動モード = cluster
+instances: 0                           # 起動インスタンス数
+log-date-format: "YYYY-MM-DD HH:mm Z"  # ログに日付を追
